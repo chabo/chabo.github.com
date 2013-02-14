@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - My Octopress Blog</title>
-  <meta name="author" content="Your Name">
+  <title>Blog Archive - A questionable blog</title>
+  <meta name="author" content="Carl Hallberg">
 
   
-  <meta name="description" content=" Blog Archive 2013 My first post on octopress
-Feb 14 2013 posted in Octopress, setup, theme Recent Posts My first post on octopress ">
+  <meta name="description" content="Blog Archive 2013 My first post on octopress
+Feb 14 2013 posted in Octopress, setup, theme Recent Posts My first post on octopress Latest Tweets &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -25,7 +25,7 @@ Feb 14 2013 posted in Octopress, setup, theme Recent Posts My first post on octo
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="A questionable blog" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -36,9 +36,9 @@ Feb 14 2013 posted in Octopress, setup, theme Recent Posts My first post on octo
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">My Octopress Blog</a></h1>
+  <h1><a href="/">A questionable blog</a></h1>
   
-    <h2>A blogging framework for hackers.</h2>
+    <h2>followed by empty string</h2>
   
 </hgroup>
 
@@ -47,13 +47,6 @@ Feb 14 2013 posted in Octopress, setup, theme Recent Posts My first post on octo
   <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
   
 </ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:chabo.github.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
   
 <ul class="main-navigation">
   <li><a href="/">Blog</a></li>
@@ -111,6 +104,22 @@ Feb 14 2013 posted in Octopress, setup, theme Recent Posts My first post on octo
 </section>
 
 
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("challberg", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/challberg" class="twitter-follow-button" data-show-count="false">Follow @challberg</a>
+  
+</section>
+
 
 
 
@@ -122,7 +131,7 @@ Feb 14 2013 posted in Octopress, setup, theme Recent Posts My first post on octo
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Your Name -
+  Copyright &copy; 2013 - Carl Hallberg -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 

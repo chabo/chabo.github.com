@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: setup | My Octopress Blog]]></title>
+  <title><![CDATA[Category: setup | A questionable blog]]></title>
   <link href="http://chabo.github.com/blog/categories/setup/atom.xml" rel="self"/>
   <link href="http://chabo.github.com/"/>
-  <updated>2013-02-14T17:17:08+01:00</updated>
+  <updated>2013-02-14T17:44:05+01:00</updated>
   <id>http://chabo.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Carl Hallberg]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
