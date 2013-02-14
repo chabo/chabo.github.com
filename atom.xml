@@ -4,7 +4,7 @@
   <title><![CDATA[A questionable blog]]></title>
   <link href="http://chabo.github.com/atom.xml" rel="self"/>
   <link href="http://chabo.github.com/"/>
-  <updated>2013-02-14T17:44:05+01:00</updated>
+  <updated>2013-02-14T18:06:23+01:00</updated>
   <id>http://chabo.github.com/</id>
   <author>
     <name><![CDATA[Carl Hallberg]]></name>
@@ -12,6 +12,29 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[remove whitespace from strings in js]]></title>
+    <link href="http://chabo.github.com/blog/2013/02/14/remove-whitespace-from-strings-in-js/"/>
+    <updated>2013-02-14T17:52:00+01:00</updated>
+    <id>http://chabo.github.com/blog/2013/02/14/remove-whitespace-from-strings-in-js</id>
+    <content type="html"><![CDATA[<p>So, the other I was fiddling around with some sideproject playing with Knockout.js. For some reason I needed
+to clean whitespace from this input. This is the way I solved it.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">removeWhitespace</span> <span class="o">=</span> <span class="err">“</span><span class="nx">So</span> <span class="k">this</span> <span class="nx">is</span> <span class="nx">some</span> <span class="nx">string</span> <span class="nx">that</span> <span class="nx">needs</span> <span class="nx">some</span> <span class="nx">whitespace</span> <span class="nx">removed</span><span class="err">”</span><span class="p">;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nx">removeWhitespace</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="err">’</span> <span class="err">‘</span><span class="p">).</span><span class="nx">join</span><span class="p">(</span><span class="err">”</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'><span class="nx">Result</span><span class="o">:</span> <span class="err">“</span><span class="nx">Sothisissomestringthatneedssomewhitespaceremoved</span><span class="err">”</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[My first post on octopress]]></title>
